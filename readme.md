@@ -2,12 +2,14 @@ What is Curl?:
 A command line tool to act as a browser, it can use a variety of protocols to transfer files and requests between webpages
 
 Http Request:
+
 > GET /odetocode.jpg HTTP/1.1
 > Host: odetocode.com
 > User-Agent: curl/7.55.1
 > Accept: */*
 
 Http Response:
+
 < HTTP/1.1 200 OK
 < Content-Length: 11751
 < Content-Type: image/jpeg
